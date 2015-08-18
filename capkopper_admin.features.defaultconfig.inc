@@ -137,41 +137,6 @@ diff_standard';
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'swiftmailer_character_set';
-  $strongarm->value = 'UTF-8';
-  $export['swiftmailer_character_set'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'swiftmailer_convert_mode';
-  $strongarm->value = 1;
-  $export['swiftmailer_convert_mode'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'swiftmailer_format';
-  $strongarm->value = 'text/html';
-  $export['swiftmailer_format'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'swiftmailer_path';
-  $strongarm->value = 'sites/all/libraries/swiftmailer';
-  $export['swiftmailer_path'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'swiftmailer_respect_format';
-  $strongarm->value = 0;
-  $export['swiftmailer_respect_format'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'views_exposed_filter_any_label';
   $strongarm->value = 'new_any';
   $export['views_exposed_filter_any_label'] = $strongarm;
