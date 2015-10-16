@@ -1,13 +1,12 @@
 name = capKopper Admin
 core = 7.x
 package = capKopper
-version = 7.x-1.0
+version = 7.x-1.0-rc1
 project = capkopper_admin
 dependencies[] = defaultconfig
 features[defaultconfig][] = strongarm:admin_theme
 features[defaultconfig][] = strongarm:date_default_timezone
 features[defaultconfig][] = strongarm:filter_fallback_format
-features[defaultconfig][] = strongarm:mail_system
 features[defaultconfig][] = strongarm:node_admin_theme
 features[defaultconfig][] = strongarm:panopoly_admin_advanced_plugins
 features[defaultconfig][] = strongarm:panopoly_admin_front_page_and_sticky
